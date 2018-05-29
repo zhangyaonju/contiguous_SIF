@@ -15,5 +15,6 @@ Several products are needed to generate the CSIF (clear-day and all-daily)
 3. solar zenith angle calcualted based on the solar time and latitude.
 4. BESS daily PAR product (only required if all-daily SIF is calculated).
 5. DEM product to calcualt the clear-sky PAR.
+
 The clear-inst and clear-daily SIF data is first calculated using the neuron network. The all-daily SIF is then calcualted using the clear-inst SIF and the daily PAR from BESS.
 
