@@ -10,10 +10,10 @@ We fellowed Zhang et al (2017) and generate the 4-day reflectance. Three steps c
 3. reconstruct the SIF for each year.
 ## generate the CSIF product
 Several products are needed to generate the CSIF (clear-day and all-daily)
->4day refletance dataset from the previous step.
->mean and standard deviation of reflectance for each band (in NN parameter folder).
->solar zenith angle calcualted based on the solar time and latitude.
->BESS daily PAR product (only required if all-daily SIF is calculated).
->DEM product to calcualt the clear-sky PAR.
+1. 4day refletance dataset from the previous step.
+2. mean and standard deviation of reflectance for each band (in NN parameter folder).
+3. solar zenith angle calcualted based on the solar time and latitude.
+4. BESS daily PAR product (only required if all-daily SIF is calculated).
+5. DEM product to calcualt the clear-sky PAR.
 The clear-inst and clear-daily SIF data is first calculated using the neuron network. The all-daily SIF is then calcualted using the clear-inst SIF and the daily PAR from BESS.
 
