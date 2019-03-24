@@ -7,7 +7,7 @@ This folder also contains the two files required for the normalization of reflec
 We fellowed Zhang et al (2017) and generate the 4-day reflectance. Three steps corresponds to the three python files:
 1. aggreated the daily reflectance files to 4day using their median values.
 2. get a mean seasonal cycle as a reference.
-3. reconstruct the SIF for each year.
+3. reconstruct the reflectance for each band each year.
 ## generate the CSIF product
 Several products are needed to generate the CSIF (clear-day and all-daily)
 1. 4day refletance dataset from the previous step.
