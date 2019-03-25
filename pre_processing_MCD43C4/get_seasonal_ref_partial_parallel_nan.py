@@ -81,8 +81,8 @@ def dataframeapply (df):
 global ncfiles, interval, indir, obs, band_name, outdir, bname
 interval = 4
 obs = np.int(math.ceil(366.0/interval))
-#band_name = ['b1','b2','b3','b4']#,'b5','b7']
-band_name = ['b5','b6','b7']
+band_name = ['b1','b2','b3','b4']#,'b5','b7']
+#band_name = ['b5','b6','b7']
 
 print obs
 print 'start time:'+str(datetime.datetime.now())
